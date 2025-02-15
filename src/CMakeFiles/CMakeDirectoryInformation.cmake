@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/home/gauthier/tmpRT/hub")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/gauthier/tmpRT/hub/buildOrigin")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/gauthier/tmpRT/hub/tmpBuild")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/gauthier/tmpRT/hub
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gauthier/tmpRT/hub/buildOrigin
+CMAKE_BINARY_DIR = /home/gauthier/tmpRT/hub/tmpBuild
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/hub_static.dir/depend.make
@@ -77,42 +77,42 @@ hub_static_OBJECTS =
 
 # External object files for target hub_static
 hub_static_EXTERNAL_OBJECTS = \
-"/home/gauthier/tmpRT/hub/buildOrigin/src/CMakeFiles/external.dir/__/external/cgltf/cgltf.cpp.o" \
-"/home/gauthier/tmpRT/hub/buildOrigin/src/CMakeFiles/external.dir/__/external/fast_obj/fast_obj.cpp.o" \
-"/home/gauthier/tmpRT/hub/buildOrigin/src/CMakeFiles/external.dir/__/external/meshoptimizer/allocator.cpp.o" \
-"/home/gauthier/tmpRT/hub/buildOrigin/src/CMakeFiles/external.dir/__/external/meshoptimizer/clusterizer.cpp.o" \
-"/home/gauthier/tmpRT/hub/buildOrigin/src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/animation.cpp.o" \
-"/home/gauthier/tmpRT/hub/buildOrigin/src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/basisenc.cpp.o" \
-"/home/gauthier/tmpRT/hub/buildOrigin/src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/basislib.cpp.o" \
-"/home/gauthier/tmpRT/hub/buildOrigin/src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/fileio.cpp.o" \
-"/home/gauthier/tmpRT/hub/buildOrigin/src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/gltfpack.cpp.o" \
-"/home/gauthier/tmpRT/hub/buildOrigin/src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/image.cpp.o" \
-"/home/gauthier/tmpRT/hub/buildOrigin/src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/json.cpp.o" \
-"/home/gauthier/tmpRT/hub/buildOrigin/src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/material.cpp.o" \
-"/home/gauthier/tmpRT/hub/buildOrigin/src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/mesh.cpp.o" \
-"/home/gauthier/tmpRT/hub/buildOrigin/src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/node.cpp.o" \
-"/home/gauthier/tmpRT/hub/buildOrigin/src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/parsegltf.cpp.o" \
-"/home/gauthier/tmpRT/hub/buildOrigin/src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/parseobj.cpp.o" \
-"/home/gauthier/tmpRT/hub/buildOrigin/src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/stream.cpp.o" \
-"/home/gauthier/tmpRT/hub/buildOrigin/src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/wasistubs.cpp.o" \
-"/home/gauthier/tmpRT/hub/buildOrigin/src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/write.cpp.o" \
-"/home/gauthier/tmpRT/hub/buildOrigin/src/CMakeFiles/external.dir/__/external/meshoptimizer/indexcodec.cpp.o" \
-"/home/gauthier/tmpRT/hub/buildOrigin/src/CMakeFiles/external.dir/__/external/meshoptimizer/indexgenerator.cpp.o" \
-"/home/gauthier/tmpRT/hub/buildOrigin/src/CMakeFiles/external.dir/__/external/meshoptimizer/overdrawanalyzer.cpp.o" \
-"/home/gauthier/tmpRT/hub/buildOrigin/src/CMakeFiles/external.dir/__/external/meshoptimizer/overdrawoptimizer.cpp.o" \
-"/home/gauthier/tmpRT/hub/buildOrigin/src/CMakeFiles/external.dir/__/external/meshoptimizer/simplifier.cpp.o" \
-"/home/gauthier/tmpRT/hub/buildOrigin/src/CMakeFiles/external.dir/__/external/meshoptimizer/spatialorder.cpp.o" \
-"/home/gauthier/tmpRT/hub/buildOrigin/src/CMakeFiles/external.dir/__/external/meshoptimizer/stripifier.cpp.o" \
-"/home/gauthier/tmpRT/hub/buildOrigin/src/CMakeFiles/external.dir/__/external/meshoptimizer/vcacheanalyzer.cpp.o" \
-"/home/gauthier/tmpRT/hub/buildOrigin/src/CMakeFiles/external.dir/__/external/meshoptimizer/vcacheoptimizer.cpp.o" \
-"/home/gauthier/tmpRT/hub/buildOrigin/src/CMakeFiles/external.dir/__/external/meshoptimizer/vertexcodec.cpp.o" \
-"/home/gauthier/tmpRT/hub/buildOrigin/src/CMakeFiles/external.dir/__/external/meshoptimizer/vertexfilter.cpp.o" \
-"/home/gauthier/tmpRT/hub/buildOrigin/src/CMakeFiles/external.dir/__/external/meshoptimizer/vfetchanalyzer.cpp.o" \
-"/home/gauthier/tmpRT/hub/buildOrigin/src/CMakeFiles/external.dir/__/external/meshoptimizer/vfetchoptimizer.cpp.o" \
-"/home/gauthier/tmpRT/hub/buildOrigin/src/CMakeFiles/core.dir/core/Configuration.cpp.o" \
-"/home/gauthier/tmpRT/hub/buildOrigin/src/CMakeFiles/core.dir/core/Info.cpp.o" \
-"/home/gauthier/tmpRT/hub/buildOrigin/src/CMakeFiles/core.dir/core/Utils.cpp.o" \
-"/home/gauthier/tmpRT/hub/buildOrigin/src/CMakeFiles/core.dir/core/base/traits/SizeOf.cpp.o"
+"/home/gauthier/tmpRT/hub/tmpBuild/src/CMakeFiles/external.dir/__/external/cgltf/cgltf.cpp.o" \
+"/home/gauthier/tmpRT/hub/tmpBuild/src/CMakeFiles/external.dir/__/external/fast_obj/fast_obj.cpp.o" \
+"/home/gauthier/tmpRT/hub/tmpBuild/src/CMakeFiles/external.dir/__/external/meshoptimizer/allocator.cpp.o" \
+"/home/gauthier/tmpRT/hub/tmpBuild/src/CMakeFiles/external.dir/__/external/meshoptimizer/clusterizer.cpp.o" \
+"/home/gauthier/tmpRT/hub/tmpBuild/src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/animation.cpp.o" \
+"/home/gauthier/tmpRT/hub/tmpBuild/src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/basisenc.cpp.o" \
+"/home/gauthier/tmpRT/hub/tmpBuild/src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/basislib.cpp.o" \
+"/home/gauthier/tmpRT/hub/tmpBuild/src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/fileio.cpp.o" \
+"/home/gauthier/tmpRT/hub/tmpBuild/src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/gltfpack.cpp.o" \
+"/home/gauthier/tmpRT/hub/tmpBuild/src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/image.cpp.o" \
+"/home/gauthier/tmpRT/hub/tmpBuild/src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/json.cpp.o" \
+"/home/gauthier/tmpRT/hub/tmpBuild/src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/material.cpp.o" \
+"/home/gauthier/tmpRT/hub/tmpBuild/src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/mesh.cpp.o" \
+"/home/gauthier/tmpRT/hub/tmpBuild/src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/node.cpp.o" \
+"/home/gauthier/tmpRT/hub/tmpBuild/src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/parsegltf.cpp.o" \
+"/home/gauthier/tmpRT/hub/tmpBuild/src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/parseobj.cpp.o" \
+"/home/gauthier/tmpRT/hub/tmpBuild/src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/stream.cpp.o" \
+"/home/gauthier/tmpRT/hub/tmpBuild/src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/wasistubs.cpp.o" \
+"/home/gauthier/tmpRT/hub/tmpBuild/src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/write.cpp.o" \
+"/home/gauthier/tmpRT/hub/tmpBuild/src/CMakeFiles/external.dir/__/external/meshoptimizer/indexcodec.cpp.o" \
+"/home/gauthier/tmpRT/hub/tmpBuild/src/CMakeFiles/external.dir/__/external/meshoptimizer/indexgenerator.cpp.o" \
+"/home/gauthier/tmpRT/hub/tmpBuild/src/CMakeFiles/external.dir/__/external/meshoptimizer/overdrawanalyzer.cpp.o" \
+"/home/gauthier/tmpRT/hub/tmpBuild/src/CMakeFiles/external.dir/__/external/meshoptimizer/overdrawoptimizer.cpp.o" \
+"/home/gauthier/tmpRT/hub/tmpBuild/src/CMakeFiles/external.dir/__/external/meshoptimizer/simplifier.cpp.o" \
+"/home/gauthier/tmpRT/hub/tmpBuild/src/CMakeFiles/external.dir/__/external/meshoptimizer/spatialorder.cpp.o" \
+"/home/gauthier/tmpRT/hub/tmpBuild/src/CMakeFiles/external.dir/__/external/meshoptimizer/stripifier.cpp.o" \
+"/home/gauthier/tmpRT/hub/tmpBuild/src/CMakeFiles/external.dir/__/external/meshoptimizer/vcacheanalyzer.cpp.o" \
+"/home/gauthier/tmpRT/hub/tmpBuild/src/CMakeFiles/external.dir/__/external/meshoptimizer/vcacheoptimizer.cpp.o" \
+"/home/gauthier/tmpRT/hub/tmpBuild/src/CMakeFiles/external.dir/__/external/meshoptimizer/vertexcodec.cpp.o" \
+"/home/gauthier/tmpRT/hub/tmpBuild/src/CMakeFiles/external.dir/__/external/meshoptimizer/vertexfilter.cpp.o" \
+"/home/gauthier/tmpRT/hub/tmpBuild/src/CMakeFiles/external.dir/__/external/meshoptimizer/vfetchanalyzer.cpp.o" \
+"/home/gauthier/tmpRT/hub/tmpBuild/src/CMakeFiles/external.dir/__/external/meshoptimizer/vfetchoptimizer.cpp.o" \
+"/home/gauthier/tmpRT/hub/tmpBuild/src/CMakeFiles/core.dir/core/Configuration.cpp.o" \
+"/home/gauthier/tmpRT/hub/tmpBuild/src/CMakeFiles/core.dir/core/Info.cpp.o" \
+"/home/gauthier/tmpRT/hub/tmpBuild/src/CMakeFiles/core.dir/core/Utils.cpp.o" \
+"/home/gauthier/tmpRT/hub/tmpBuild/src/CMakeFiles/core.dir/core/base/traits/SizeOf.cpp.o"
 
 src/static/libhubd.a: src/CMakeFiles/external.dir/__/external/cgltf/cgltf.cpp.o
 src/static/libhubd.a: src/CMakeFiles/external.dir/__/external/fast_obj/fast_obj.cpp.o
@@ -152,19 +152,19 @@ src/static/libhubd.a: src/CMakeFiles/core.dir/core/Utils.cpp.o
 src/static/libhubd.a: src/CMakeFiles/core.dir/core/base/traits/SizeOf.cpp.o
 src/static/libhubd.a: src/CMakeFiles/hub_static.dir/build.make
 src/static/libhubd.a: src/CMakeFiles/hub_static.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/gauthier/tmpRT/hub/buildOrigin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX static library static/libhubd.a"
-	cd /home/gauthier/tmpRT/hub/buildOrigin/src && $(CMAKE_COMMAND) -P CMakeFiles/hub_static.dir/cmake_clean_target.cmake
-	cd /home/gauthier/tmpRT/hub/buildOrigin/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hub_static.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/gauthier/tmpRT/hub/tmpBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Linking CXX static library static/libhubd.a"
+	cd /home/gauthier/tmpRT/hub/tmpBuild/src && $(CMAKE_COMMAND) -P CMakeFiles/hub_static.dir/cmake_clean_target.cmake
+	cd /home/gauthier/tmpRT/hub/tmpBuild/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hub_static.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/hub_static.dir/build: src/static/libhubd.a
 .PHONY : src/CMakeFiles/hub_static.dir/build
 
 src/CMakeFiles/hub_static.dir/clean:
-	cd /home/gauthier/tmpRT/hub/buildOrigin/src && $(CMAKE_COMMAND) -P CMakeFiles/hub_static.dir/cmake_clean.cmake
+	cd /home/gauthier/tmpRT/hub/tmpBuild/src && $(CMAKE_COMMAND) -P CMakeFiles/hub_static.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/hub_static.dir/clean
 
 src/CMakeFiles/hub_static.dir/depend:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gauthier/tmpRT/hub /home/gauthier/tmpRT/hub/src /home/gauthier/tmpRT/hub/buildOrigin /home/gauthier/tmpRT/hub/buildOrigin/src /home/gauthier/tmpRT/hub/buildOrigin/src/CMakeFiles/hub_static.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gauthier/tmpRT/hub /home/gauthier/tmpRT/hub/src /home/gauthier/tmpRT/hub/tmpBuild /home/gauthier/tmpRT/hub/tmpBuild/src /home/gauthier/tmpRT/hub/tmpBuild/src/CMakeFiles/hub_static.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : src/CMakeFiles/hub_static.dir/depend
 

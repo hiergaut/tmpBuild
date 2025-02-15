@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/gauthier/tmpRT/hub
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gauthier/tmpRT/hub/buildOrigin
+CMAKE_BINARY_DIR = /home/gauthier/tmpRT/hub/tmpBuild
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(CMAKE_COMMAND) -E cmake_progress_start /home/gauthier/tmpRT/hub/buildOrigin/CMakeFiles /home/gauthier/tmpRT/hub/buildOrigin/src//CMakeFiles/progress.marks
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/gauthier/tmpRT/hub/buildOrigin/CMakeFiles 0
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(CMAKE_COMMAND) -E cmake_progress_start /home/gauthier/tmpRT/hub/tmpBuild/CMakeFiles /home/gauthier/tmpRT/hub/tmpBuild/src//CMakeFiles/progress.marks
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/gauthier/tmpRT/hub/tmpBuild/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/external.dir/rule:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/external.dir/rule
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/external.dir/rule
 .PHONY : src/CMakeFiles/external.dir/rule
 
 # Convenience name for target.
@@ -172,12 +172,12 @@ external: src/CMakeFiles/external.dir/rule
 
 # fast build rule for target.
 external/fast:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/build
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/build
 .PHONY : external/fast
 
 # Convenience name for target.
 src/CMakeFiles/core.dir/rule:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/core.dir/rule
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/core.dir/rule
 .PHONY : src/CMakeFiles/core.dir/rule
 
 # Convenience name for target.
@@ -186,12 +186,12 @@ core: src/CMakeFiles/core.dir/rule
 
 # fast build rule for target.
 core/fast:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core.dir/build.make src/CMakeFiles/core.dir/build
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core.dir/build.make src/CMakeFiles/core.dir/build
 .PHONY : core/fast
 
 # Convenience name for target.
 src/CMakeFiles/hub_static.dir/rule:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/hub_static.dir/rule
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/hub_static.dir/rule
 .PHONY : src/CMakeFiles/hub_static.dir/rule
 
 # Convenience name for target.
@@ -200,12 +200,12 @@ hub_static: src/CMakeFiles/hub_static.dir/rule
 
 # fast build rule for target.
 hub_static/fast:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/hub_static.dir/build.make src/CMakeFiles/hub_static.dir/build
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/hub_static.dir/build.make src/CMakeFiles/hub_static.dir/build
 .PHONY : hub_static/fast
 
 # Convenience name for target.
 src/CMakeFiles/hub_shared.dir/rule:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/hub_shared.dir/rule
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/CMakeFiles/hub_shared.dir/rule
 .PHONY : src/CMakeFiles/hub_shared.dir/rule
 
 # Convenience name for target.
@@ -214,7 +214,7 @@ hub_shared: src/CMakeFiles/hub_shared.dir/rule
 
 # fast build rule for target.
 hub_shared/fast:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/hub_shared.dir/build.make src/CMakeFiles/hub_shared.dir/build
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/hub_shared.dir/build.make src/CMakeFiles/hub_shared.dir/build
 .PHONY : hub_shared/fast
 
 __/external/cgltf/cgltf.o: __/external/cgltf/cgltf.cpp.o
@@ -222,7 +222,7 @@ __/external/cgltf/cgltf.o: __/external/cgltf/cgltf.cpp.o
 
 # target to build an object file
 __/external/cgltf/cgltf.cpp.o:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/cgltf/cgltf.cpp.o
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/cgltf/cgltf.cpp.o
 .PHONY : __/external/cgltf/cgltf.cpp.o
 
 __/external/cgltf/cgltf.i: __/external/cgltf/cgltf.cpp.i
@@ -230,7 +230,7 @@ __/external/cgltf/cgltf.i: __/external/cgltf/cgltf.cpp.i
 
 # target to preprocess a source file
 __/external/cgltf/cgltf.cpp.i:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/cgltf/cgltf.cpp.i
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/cgltf/cgltf.cpp.i
 .PHONY : __/external/cgltf/cgltf.cpp.i
 
 __/external/cgltf/cgltf.s: __/external/cgltf/cgltf.cpp.s
@@ -238,7 +238,7 @@ __/external/cgltf/cgltf.s: __/external/cgltf/cgltf.cpp.s
 
 # target to generate assembly for a file
 __/external/cgltf/cgltf.cpp.s:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/cgltf/cgltf.cpp.s
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/cgltf/cgltf.cpp.s
 .PHONY : __/external/cgltf/cgltf.cpp.s
 
 __/external/fast_obj/fast_obj.o: __/external/fast_obj/fast_obj.cpp.o
@@ -246,7 +246,7 @@ __/external/fast_obj/fast_obj.o: __/external/fast_obj/fast_obj.cpp.o
 
 # target to build an object file
 __/external/fast_obj/fast_obj.cpp.o:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/fast_obj/fast_obj.cpp.o
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/fast_obj/fast_obj.cpp.o
 .PHONY : __/external/fast_obj/fast_obj.cpp.o
 
 __/external/fast_obj/fast_obj.i: __/external/fast_obj/fast_obj.cpp.i
@@ -254,7 +254,7 @@ __/external/fast_obj/fast_obj.i: __/external/fast_obj/fast_obj.cpp.i
 
 # target to preprocess a source file
 __/external/fast_obj/fast_obj.cpp.i:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/fast_obj/fast_obj.cpp.i
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/fast_obj/fast_obj.cpp.i
 .PHONY : __/external/fast_obj/fast_obj.cpp.i
 
 __/external/fast_obj/fast_obj.s: __/external/fast_obj/fast_obj.cpp.s
@@ -262,7 +262,7 @@ __/external/fast_obj/fast_obj.s: __/external/fast_obj/fast_obj.cpp.s
 
 # target to generate assembly for a file
 __/external/fast_obj/fast_obj.cpp.s:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/fast_obj/fast_obj.cpp.s
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/fast_obj/fast_obj.cpp.s
 .PHONY : __/external/fast_obj/fast_obj.cpp.s
 
 __/external/meshoptimizer/allocator.o: __/external/meshoptimizer/allocator.cpp.o
@@ -270,7 +270,7 @@ __/external/meshoptimizer/allocator.o: __/external/meshoptimizer/allocator.cpp.o
 
 # target to build an object file
 __/external/meshoptimizer/allocator.cpp.o:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/allocator.cpp.o
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/allocator.cpp.o
 .PHONY : __/external/meshoptimizer/allocator.cpp.o
 
 __/external/meshoptimizer/allocator.i: __/external/meshoptimizer/allocator.cpp.i
@@ -278,7 +278,7 @@ __/external/meshoptimizer/allocator.i: __/external/meshoptimizer/allocator.cpp.i
 
 # target to preprocess a source file
 __/external/meshoptimizer/allocator.cpp.i:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/allocator.cpp.i
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/allocator.cpp.i
 .PHONY : __/external/meshoptimizer/allocator.cpp.i
 
 __/external/meshoptimizer/allocator.s: __/external/meshoptimizer/allocator.cpp.s
@@ -286,7 +286,7 @@ __/external/meshoptimizer/allocator.s: __/external/meshoptimizer/allocator.cpp.s
 
 # target to generate assembly for a file
 __/external/meshoptimizer/allocator.cpp.s:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/allocator.cpp.s
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/allocator.cpp.s
 .PHONY : __/external/meshoptimizer/allocator.cpp.s
 
 __/external/meshoptimizer/clusterizer.o: __/external/meshoptimizer/clusterizer.cpp.o
@@ -294,7 +294,7 @@ __/external/meshoptimizer/clusterizer.o: __/external/meshoptimizer/clusterizer.c
 
 # target to build an object file
 __/external/meshoptimizer/clusterizer.cpp.o:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/clusterizer.cpp.o
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/clusterizer.cpp.o
 .PHONY : __/external/meshoptimizer/clusterizer.cpp.o
 
 __/external/meshoptimizer/clusterizer.i: __/external/meshoptimizer/clusterizer.cpp.i
@@ -302,7 +302,7 @@ __/external/meshoptimizer/clusterizer.i: __/external/meshoptimizer/clusterizer.c
 
 # target to preprocess a source file
 __/external/meshoptimizer/clusterizer.cpp.i:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/clusterizer.cpp.i
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/clusterizer.cpp.i
 .PHONY : __/external/meshoptimizer/clusterizer.cpp.i
 
 __/external/meshoptimizer/clusterizer.s: __/external/meshoptimizer/clusterizer.cpp.s
@@ -310,7 +310,7 @@ __/external/meshoptimizer/clusterizer.s: __/external/meshoptimizer/clusterizer.c
 
 # target to generate assembly for a file
 __/external/meshoptimizer/clusterizer.cpp.s:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/clusterizer.cpp.s
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/clusterizer.cpp.s
 .PHONY : __/external/meshoptimizer/clusterizer.cpp.s
 
 __/external/meshoptimizer/gltf/animation.o: __/external/meshoptimizer/gltf/animation.cpp.o
@@ -318,7 +318,7 @@ __/external/meshoptimizer/gltf/animation.o: __/external/meshoptimizer/gltf/anima
 
 # target to build an object file
 __/external/meshoptimizer/gltf/animation.cpp.o:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/animation.cpp.o
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/animation.cpp.o
 .PHONY : __/external/meshoptimizer/gltf/animation.cpp.o
 
 __/external/meshoptimizer/gltf/animation.i: __/external/meshoptimizer/gltf/animation.cpp.i
@@ -326,7 +326,7 @@ __/external/meshoptimizer/gltf/animation.i: __/external/meshoptimizer/gltf/anima
 
 # target to preprocess a source file
 __/external/meshoptimizer/gltf/animation.cpp.i:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/animation.cpp.i
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/animation.cpp.i
 .PHONY : __/external/meshoptimizer/gltf/animation.cpp.i
 
 __/external/meshoptimizer/gltf/animation.s: __/external/meshoptimizer/gltf/animation.cpp.s
@@ -334,7 +334,7 @@ __/external/meshoptimizer/gltf/animation.s: __/external/meshoptimizer/gltf/anima
 
 # target to generate assembly for a file
 __/external/meshoptimizer/gltf/animation.cpp.s:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/animation.cpp.s
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/animation.cpp.s
 .PHONY : __/external/meshoptimizer/gltf/animation.cpp.s
 
 __/external/meshoptimizer/gltf/basisenc.o: __/external/meshoptimizer/gltf/basisenc.cpp.o
@@ -342,7 +342,7 @@ __/external/meshoptimizer/gltf/basisenc.o: __/external/meshoptimizer/gltf/basise
 
 # target to build an object file
 __/external/meshoptimizer/gltf/basisenc.cpp.o:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/basisenc.cpp.o
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/basisenc.cpp.o
 .PHONY : __/external/meshoptimizer/gltf/basisenc.cpp.o
 
 __/external/meshoptimizer/gltf/basisenc.i: __/external/meshoptimizer/gltf/basisenc.cpp.i
@@ -350,7 +350,7 @@ __/external/meshoptimizer/gltf/basisenc.i: __/external/meshoptimizer/gltf/basise
 
 # target to preprocess a source file
 __/external/meshoptimizer/gltf/basisenc.cpp.i:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/basisenc.cpp.i
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/basisenc.cpp.i
 .PHONY : __/external/meshoptimizer/gltf/basisenc.cpp.i
 
 __/external/meshoptimizer/gltf/basisenc.s: __/external/meshoptimizer/gltf/basisenc.cpp.s
@@ -358,7 +358,7 @@ __/external/meshoptimizer/gltf/basisenc.s: __/external/meshoptimizer/gltf/basise
 
 # target to generate assembly for a file
 __/external/meshoptimizer/gltf/basisenc.cpp.s:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/basisenc.cpp.s
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/basisenc.cpp.s
 .PHONY : __/external/meshoptimizer/gltf/basisenc.cpp.s
 
 __/external/meshoptimizer/gltf/basislib.o: __/external/meshoptimizer/gltf/basislib.cpp.o
@@ -366,7 +366,7 @@ __/external/meshoptimizer/gltf/basislib.o: __/external/meshoptimizer/gltf/basisl
 
 # target to build an object file
 __/external/meshoptimizer/gltf/basislib.cpp.o:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/basislib.cpp.o
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/basislib.cpp.o
 .PHONY : __/external/meshoptimizer/gltf/basislib.cpp.o
 
 __/external/meshoptimizer/gltf/basislib.i: __/external/meshoptimizer/gltf/basislib.cpp.i
@@ -374,7 +374,7 @@ __/external/meshoptimizer/gltf/basislib.i: __/external/meshoptimizer/gltf/basisl
 
 # target to preprocess a source file
 __/external/meshoptimizer/gltf/basislib.cpp.i:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/basislib.cpp.i
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/basislib.cpp.i
 .PHONY : __/external/meshoptimizer/gltf/basislib.cpp.i
 
 __/external/meshoptimizer/gltf/basislib.s: __/external/meshoptimizer/gltf/basislib.cpp.s
@@ -382,7 +382,7 @@ __/external/meshoptimizer/gltf/basislib.s: __/external/meshoptimizer/gltf/basisl
 
 # target to generate assembly for a file
 __/external/meshoptimizer/gltf/basislib.cpp.s:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/basislib.cpp.s
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/basislib.cpp.s
 .PHONY : __/external/meshoptimizer/gltf/basislib.cpp.s
 
 __/external/meshoptimizer/gltf/fileio.o: __/external/meshoptimizer/gltf/fileio.cpp.o
@@ -390,7 +390,7 @@ __/external/meshoptimizer/gltf/fileio.o: __/external/meshoptimizer/gltf/fileio.c
 
 # target to build an object file
 __/external/meshoptimizer/gltf/fileio.cpp.o:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/fileio.cpp.o
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/fileio.cpp.o
 .PHONY : __/external/meshoptimizer/gltf/fileio.cpp.o
 
 __/external/meshoptimizer/gltf/fileio.i: __/external/meshoptimizer/gltf/fileio.cpp.i
@@ -398,7 +398,7 @@ __/external/meshoptimizer/gltf/fileio.i: __/external/meshoptimizer/gltf/fileio.c
 
 # target to preprocess a source file
 __/external/meshoptimizer/gltf/fileio.cpp.i:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/fileio.cpp.i
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/fileio.cpp.i
 .PHONY : __/external/meshoptimizer/gltf/fileio.cpp.i
 
 __/external/meshoptimizer/gltf/fileio.s: __/external/meshoptimizer/gltf/fileio.cpp.s
@@ -406,7 +406,7 @@ __/external/meshoptimizer/gltf/fileio.s: __/external/meshoptimizer/gltf/fileio.c
 
 # target to generate assembly for a file
 __/external/meshoptimizer/gltf/fileio.cpp.s:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/fileio.cpp.s
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/fileio.cpp.s
 .PHONY : __/external/meshoptimizer/gltf/fileio.cpp.s
 
 __/external/meshoptimizer/gltf/gltfpack.o: __/external/meshoptimizer/gltf/gltfpack.cpp.o
@@ -414,7 +414,7 @@ __/external/meshoptimizer/gltf/gltfpack.o: __/external/meshoptimizer/gltf/gltfpa
 
 # target to build an object file
 __/external/meshoptimizer/gltf/gltfpack.cpp.o:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/gltfpack.cpp.o
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/gltfpack.cpp.o
 .PHONY : __/external/meshoptimizer/gltf/gltfpack.cpp.o
 
 __/external/meshoptimizer/gltf/gltfpack.i: __/external/meshoptimizer/gltf/gltfpack.cpp.i
@@ -422,7 +422,7 @@ __/external/meshoptimizer/gltf/gltfpack.i: __/external/meshoptimizer/gltf/gltfpa
 
 # target to preprocess a source file
 __/external/meshoptimizer/gltf/gltfpack.cpp.i:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/gltfpack.cpp.i
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/gltfpack.cpp.i
 .PHONY : __/external/meshoptimizer/gltf/gltfpack.cpp.i
 
 __/external/meshoptimizer/gltf/gltfpack.s: __/external/meshoptimizer/gltf/gltfpack.cpp.s
@@ -430,7 +430,7 @@ __/external/meshoptimizer/gltf/gltfpack.s: __/external/meshoptimizer/gltf/gltfpa
 
 # target to generate assembly for a file
 __/external/meshoptimizer/gltf/gltfpack.cpp.s:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/gltfpack.cpp.s
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/gltfpack.cpp.s
 .PHONY : __/external/meshoptimizer/gltf/gltfpack.cpp.s
 
 __/external/meshoptimizer/gltf/image.o: __/external/meshoptimizer/gltf/image.cpp.o
@@ -438,7 +438,7 @@ __/external/meshoptimizer/gltf/image.o: __/external/meshoptimizer/gltf/image.cpp
 
 # target to build an object file
 __/external/meshoptimizer/gltf/image.cpp.o:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/image.cpp.o
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/image.cpp.o
 .PHONY : __/external/meshoptimizer/gltf/image.cpp.o
 
 __/external/meshoptimizer/gltf/image.i: __/external/meshoptimizer/gltf/image.cpp.i
@@ -446,7 +446,7 @@ __/external/meshoptimizer/gltf/image.i: __/external/meshoptimizer/gltf/image.cpp
 
 # target to preprocess a source file
 __/external/meshoptimizer/gltf/image.cpp.i:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/image.cpp.i
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/image.cpp.i
 .PHONY : __/external/meshoptimizer/gltf/image.cpp.i
 
 __/external/meshoptimizer/gltf/image.s: __/external/meshoptimizer/gltf/image.cpp.s
@@ -454,7 +454,7 @@ __/external/meshoptimizer/gltf/image.s: __/external/meshoptimizer/gltf/image.cpp
 
 # target to generate assembly for a file
 __/external/meshoptimizer/gltf/image.cpp.s:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/image.cpp.s
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/image.cpp.s
 .PHONY : __/external/meshoptimizer/gltf/image.cpp.s
 
 __/external/meshoptimizer/gltf/json.o: __/external/meshoptimizer/gltf/json.cpp.o
@@ -462,7 +462,7 @@ __/external/meshoptimizer/gltf/json.o: __/external/meshoptimizer/gltf/json.cpp.o
 
 # target to build an object file
 __/external/meshoptimizer/gltf/json.cpp.o:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/json.cpp.o
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/json.cpp.o
 .PHONY : __/external/meshoptimizer/gltf/json.cpp.o
 
 __/external/meshoptimizer/gltf/json.i: __/external/meshoptimizer/gltf/json.cpp.i
@@ -470,7 +470,7 @@ __/external/meshoptimizer/gltf/json.i: __/external/meshoptimizer/gltf/json.cpp.i
 
 # target to preprocess a source file
 __/external/meshoptimizer/gltf/json.cpp.i:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/json.cpp.i
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/json.cpp.i
 .PHONY : __/external/meshoptimizer/gltf/json.cpp.i
 
 __/external/meshoptimizer/gltf/json.s: __/external/meshoptimizer/gltf/json.cpp.s
@@ -478,7 +478,7 @@ __/external/meshoptimizer/gltf/json.s: __/external/meshoptimizer/gltf/json.cpp.s
 
 # target to generate assembly for a file
 __/external/meshoptimizer/gltf/json.cpp.s:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/json.cpp.s
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/json.cpp.s
 .PHONY : __/external/meshoptimizer/gltf/json.cpp.s
 
 __/external/meshoptimizer/gltf/material.o: __/external/meshoptimizer/gltf/material.cpp.o
@@ -486,7 +486,7 @@ __/external/meshoptimizer/gltf/material.o: __/external/meshoptimizer/gltf/materi
 
 # target to build an object file
 __/external/meshoptimizer/gltf/material.cpp.o:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/material.cpp.o
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/material.cpp.o
 .PHONY : __/external/meshoptimizer/gltf/material.cpp.o
 
 __/external/meshoptimizer/gltf/material.i: __/external/meshoptimizer/gltf/material.cpp.i
@@ -494,7 +494,7 @@ __/external/meshoptimizer/gltf/material.i: __/external/meshoptimizer/gltf/materi
 
 # target to preprocess a source file
 __/external/meshoptimizer/gltf/material.cpp.i:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/material.cpp.i
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/material.cpp.i
 .PHONY : __/external/meshoptimizer/gltf/material.cpp.i
 
 __/external/meshoptimizer/gltf/material.s: __/external/meshoptimizer/gltf/material.cpp.s
@@ -502,7 +502,7 @@ __/external/meshoptimizer/gltf/material.s: __/external/meshoptimizer/gltf/materi
 
 # target to generate assembly for a file
 __/external/meshoptimizer/gltf/material.cpp.s:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/material.cpp.s
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/material.cpp.s
 .PHONY : __/external/meshoptimizer/gltf/material.cpp.s
 
 __/external/meshoptimizer/gltf/mesh.o: __/external/meshoptimizer/gltf/mesh.cpp.o
@@ -510,7 +510,7 @@ __/external/meshoptimizer/gltf/mesh.o: __/external/meshoptimizer/gltf/mesh.cpp.o
 
 # target to build an object file
 __/external/meshoptimizer/gltf/mesh.cpp.o:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/mesh.cpp.o
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/mesh.cpp.o
 .PHONY : __/external/meshoptimizer/gltf/mesh.cpp.o
 
 __/external/meshoptimizer/gltf/mesh.i: __/external/meshoptimizer/gltf/mesh.cpp.i
@@ -518,7 +518,7 @@ __/external/meshoptimizer/gltf/mesh.i: __/external/meshoptimizer/gltf/mesh.cpp.i
 
 # target to preprocess a source file
 __/external/meshoptimizer/gltf/mesh.cpp.i:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/mesh.cpp.i
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/mesh.cpp.i
 .PHONY : __/external/meshoptimizer/gltf/mesh.cpp.i
 
 __/external/meshoptimizer/gltf/mesh.s: __/external/meshoptimizer/gltf/mesh.cpp.s
@@ -526,7 +526,7 @@ __/external/meshoptimizer/gltf/mesh.s: __/external/meshoptimizer/gltf/mesh.cpp.s
 
 # target to generate assembly for a file
 __/external/meshoptimizer/gltf/mesh.cpp.s:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/mesh.cpp.s
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/mesh.cpp.s
 .PHONY : __/external/meshoptimizer/gltf/mesh.cpp.s
 
 __/external/meshoptimizer/gltf/node.o: __/external/meshoptimizer/gltf/node.cpp.o
@@ -534,7 +534,7 @@ __/external/meshoptimizer/gltf/node.o: __/external/meshoptimizer/gltf/node.cpp.o
 
 # target to build an object file
 __/external/meshoptimizer/gltf/node.cpp.o:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/node.cpp.o
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/node.cpp.o
 .PHONY : __/external/meshoptimizer/gltf/node.cpp.o
 
 __/external/meshoptimizer/gltf/node.i: __/external/meshoptimizer/gltf/node.cpp.i
@@ -542,7 +542,7 @@ __/external/meshoptimizer/gltf/node.i: __/external/meshoptimizer/gltf/node.cpp.i
 
 # target to preprocess a source file
 __/external/meshoptimizer/gltf/node.cpp.i:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/node.cpp.i
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/node.cpp.i
 .PHONY : __/external/meshoptimizer/gltf/node.cpp.i
 
 __/external/meshoptimizer/gltf/node.s: __/external/meshoptimizer/gltf/node.cpp.s
@@ -550,7 +550,7 @@ __/external/meshoptimizer/gltf/node.s: __/external/meshoptimizer/gltf/node.cpp.s
 
 # target to generate assembly for a file
 __/external/meshoptimizer/gltf/node.cpp.s:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/node.cpp.s
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/node.cpp.s
 .PHONY : __/external/meshoptimizer/gltf/node.cpp.s
 
 __/external/meshoptimizer/gltf/parsegltf.o: __/external/meshoptimizer/gltf/parsegltf.cpp.o
@@ -558,7 +558,7 @@ __/external/meshoptimizer/gltf/parsegltf.o: __/external/meshoptimizer/gltf/parse
 
 # target to build an object file
 __/external/meshoptimizer/gltf/parsegltf.cpp.o:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/parsegltf.cpp.o
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/parsegltf.cpp.o
 .PHONY : __/external/meshoptimizer/gltf/parsegltf.cpp.o
 
 __/external/meshoptimizer/gltf/parsegltf.i: __/external/meshoptimizer/gltf/parsegltf.cpp.i
@@ -566,7 +566,7 @@ __/external/meshoptimizer/gltf/parsegltf.i: __/external/meshoptimizer/gltf/parse
 
 # target to preprocess a source file
 __/external/meshoptimizer/gltf/parsegltf.cpp.i:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/parsegltf.cpp.i
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/parsegltf.cpp.i
 .PHONY : __/external/meshoptimizer/gltf/parsegltf.cpp.i
 
 __/external/meshoptimizer/gltf/parsegltf.s: __/external/meshoptimizer/gltf/parsegltf.cpp.s
@@ -574,7 +574,7 @@ __/external/meshoptimizer/gltf/parsegltf.s: __/external/meshoptimizer/gltf/parse
 
 # target to generate assembly for a file
 __/external/meshoptimizer/gltf/parsegltf.cpp.s:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/parsegltf.cpp.s
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/parsegltf.cpp.s
 .PHONY : __/external/meshoptimizer/gltf/parsegltf.cpp.s
 
 __/external/meshoptimizer/gltf/parseobj.o: __/external/meshoptimizer/gltf/parseobj.cpp.o
@@ -582,7 +582,7 @@ __/external/meshoptimizer/gltf/parseobj.o: __/external/meshoptimizer/gltf/parseo
 
 # target to build an object file
 __/external/meshoptimizer/gltf/parseobj.cpp.o:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/parseobj.cpp.o
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/parseobj.cpp.o
 .PHONY : __/external/meshoptimizer/gltf/parseobj.cpp.o
 
 __/external/meshoptimizer/gltf/parseobj.i: __/external/meshoptimizer/gltf/parseobj.cpp.i
@@ -590,7 +590,7 @@ __/external/meshoptimizer/gltf/parseobj.i: __/external/meshoptimizer/gltf/parseo
 
 # target to preprocess a source file
 __/external/meshoptimizer/gltf/parseobj.cpp.i:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/parseobj.cpp.i
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/parseobj.cpp.i
 .PHONY : __/external/meshoptimizer/gltf/parseobj.cpp.i
 
 __/external/meshoptimizer/gltf/parseobj.s: __/external/meshoptimizer/gltf/parseobj.cpp.s
@@ -598,7 +598,7 @@ __/external/meshoptimizer/gltf/parseobj.s: __/external/meshoptimizer/gltf/parseo
 
 # target to generate assembly for a file
 __/external/meshoptimizer/gltf/parseobj.cpp.s:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/parseobj.cpp.s
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/parseobj.cpp.s
 .PHONY : __/external/meshoptimizer/gltf/parseobj.cpp.s
 
 __/external/meshoptimizer/gltf/stream.o: __/external/meshoptimizer/gltf/stream.cpp.o
@@ -606,7 +606,7 @@ __/external/meshoptimizer/gltf/stream.o: __/external/meshoptimizer/gltf/stream.c
 
 # target to build an object file
 __/external/meshoptimizer/gltf/stream.cpp.o:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/stream.cpp.o
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/stream.cpp.o
 .PHONY : __/external/meshoptimizer/gltf/stream.cpp.o
 
 __/external/meshoptimizer/gltf/stream.i: __/external/meshoptimizer/gltf/stream.cpp.i
@@ -614,7 +614,7 @@ __/external/meshoptimizer/gltf/stream.i: __/external/meshoptimizer/gltf/stream.c
 
 # target to preprocess a source file
 __/external/meshoptimizer/gltf/stream.cpp.i:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/stream.cpp.i
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/stream.cpp.i
 .PHONY : __/external/meshoptimizer/gltf/stream.cpp.i
 
 __/external/meshoptimizer/gltf/stream.s: __/external/meshoptimizer/gltf/stream.cpp.s
@@ -622,7 +622,7 @@ __/external/meshoptimizer/gltf/stream.s: __/external/meshoptimizer/gltf/stream.c
 
 # target to generate assembly for a file
 __/external/meshoptimizer/gltf/stream.cpp.s:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/stream.cpp.s
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/stream.cpp.s
 .PHONY : __/external/meshoptimizer/gltf/stream.cpp.s
 
 __/external/meshoptimizer/gltf/wasistubs.o: __/external/meshoptimizer/gltf/wasistubs.cpp.o
@@ -630,7 +630,7 @@ __/external/meshoptimizer/gltf/wasistubs.o: __/external/meshoptimizer/gltf/wasis
 
 # target to build an object file
 __/external/meshoptimizer/gltf/wasistubs.cpp.o:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/wasistubs.cpp.o
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/wasistubs.cpp.o
 .PHONY : __/external/meshoptimizer/gltf/wasistubs.cpp.o
 
 __/external/meshoptimizer/gltf/wasistubs.i: __/external/meshoptimizer/gltf/wasistubs.cpp.i
@@ -638,7 +638,7 @@ __/external/meshoptimizer/gltf/wasistubs.i: __/external/meshoptimizer/gltf/wasis
 
 # target to preprocess a source file
 __/external/meshoptimizer/gltf/wasistubs.cpp.i:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/wasistubs.cpp.i
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/wasistubs.cpp.i
 .PHONY : __/external/meshoptimizer/gltf/wasistubs.cpp.i
 
 __/external/meshoptimizer/gltf/wasistubs.s: __/external/meshoptimizer/gltf/wasistubs.cpp.s
@@ -646,7 +646,7 @@ __/external/meshoptimizer/gltf/wasistubs.s: __/external/meshoptimizer/gltf/wasis
 
 # target to generate assembly for a file
 __/external/meshoptimizer/gltf/wasistubs.cpp.s:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/wasistubs.cpp.s
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/wasistubs.cpp.s
 .PHONY : __/external/meshoptimizer/gltf/wasistubs.cpp.s
 
 __/external/meshoptimizer/gltf/write.o: __/external/meshoptimizer/gltf/write.cpp.o
@@ -654,7 +654,7 @@ __/external/meshoptimizer/gltf/write.o: __/external/meshoptimizer/gltf/write.cpp
 
 # target to build an object file
 __/external/meshoptimizer/gltf/write.cpp.o:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/write.cpp.o
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/write.cpp.o
 .PHONY : __/external/meshoptimizer/gltf/write.cpp.o
 
 __/external/meshoptimizer/gltf/write.i: __/external/meshoptimizer/gltf/write.cpp.i
@@ -662,7 +662,7 @@ __/external/meshoptimizer/gltf/write.i: __/external/meshoptimizer/gltf/write.cpp
 
 # target to preprocess a source file
 __/external/meshoptimizer/gltf/write.cpp.i:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/write.cpp.i
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/write.cpp.i
 .PHONY : __/external/meshoptimizer/gltf/write.cpp.i
 
 __/external/meshoptimizer/gltf/write.s: __/external/meshoptimizer/gltf/write.cpp.s
@@ -670,7 +670,7 @@ __/external/meshoptimizer/gltf/write.s: __/external/meshoptimizer/gltf/write.cpp
 
 # target to generate assembly for a file
 __/external/meshoptimizer/gltf/write.cpp.s:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/write.cpp.s
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/gltf/write.cpp.s
 .PHONY : __/external/meshoptimizer/gltf/write.cpp.s
 
 __/external/meshoptimizer/indexcodec.o: __/external/meshoptimizer/indexcodec.cpp.o
@@ -678,7 +678,7 @@ __/external/meshoptimizer/indexcodec.o: __/external/meshoptimizer/indexcodec.cpp
 
 # target to build an object file
 __/external/meshoptimizer/indexcodec.cpp.o:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/indexcodec.cpp.o
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/indexcodec.cpp.o
 .PHONY : __/external/meshoptimizer/indexcodec.cpp.o
 
 __/external/meshoptimizer/indexcodec.i: __/external/meshoptimizer/indexcodec.cpp.i
@@ -686,7 +686,7 @@ __/external/meshoptimizer/indexcodec.i: __/external/meshoptimizer/indexcodec.cpp
 
 # target to preprocess a source file
 __/external/meshoptimizer/indexcodec.cpp.i:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/indexcodec.cpp.i
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/indexcodec.cpp.i
 .PHONY : __/external/meshoptimizer/indexcodec.cpp.i
 
 __/external/meshoptimizer/indexcodec.s: __/external/meshoptimizer/indexcodec.cpp.s
@@ -694,7 +694,7 @@ __/external/meshoptimizer/indexcodec.s: __/external/meshoptimizer/indexcodec.cpp
 
 # target to generate assembly for a file
 __/external/meshoptimizer/indexcodec.cpp.s:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/indexcodec.cpp.s
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/indexcodec.cpp.s
 .PHONY : __/external/meshoptimizer/indexcodec.cpp.s
 
 __/external/meshoptimizer/indexgenerator.o: __/external/meshoptimizer/indexgenerator.cpp.o
@@ -702,7 +702,7 @@ __/external/meshoptimizer/indexgenerator.o: __/external/meshoptimizer/indexgener
 
 # target to build an object file
 __/external/meshoptimizer/indexgenerator.cpp.o:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/indexgenerator.cpp.o
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/indexgenerator.cpp.o
 .PHONY : __/external/meshoptimizer/indexgenerator.cpp.o
 
 __/external/meshoptimizer/indexgenerator.i: __/external/meshoptimizer/indexgenerator.cpp.i
@@ -710,7 +710,7 @@ __/external/meshoptimizer/indexgenerator.i: __/external/meshoptimizer/indexgener
 
 # target to preprocess a source file
 __/external/meshoptimizer/indexgenerator.cpp.i:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/indexgenerator.cpp.i
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/indexgenerator.cpp.i
 .PHONY : __/external/meshoptimizer/indexgenerator.cpp.i
 
 __/external/meshoptimizer/indexgenerator.s: __/external/meshoptimizer/indexgenerator.cpp.s
@@ -718,7 +718,7 @@ __/external/meshoptimizer/indexgenerator.s: __/external/meshoptimizer/indexgener
 
 # target to generate assembly for a file
 __/external/meshoptimizer/indexgenerator.cpp.s:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/indexgenerator.cpp.s
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/indexgenerator.cpp.s
 .PHONY : __/external/meshoptimizer/indexgenerator.cpp.s
 
 __/external/meshoptimizer/overdrawanalyzer.o: __/external/meshoptimizer/overdrawanalyzer.cpp.o
@@ -726,7 +726,7 @@ __/external/meshoptimizer/overdrawanalyzer.o: __/external/meshoptimizer/overdraw
 
 # target to build an object file
 __/external/meshoptimizer/overdrawanalyzer.cpp.o:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/overdrawanalyzer.cpp.o
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/overdrawanalyzer.cpp.o
 .PHONY : __/external/meshoptimizer/overdrawanalyzer.cpp.o
 
 __/external/meshoptimizer/overdrawanalyzer.i: __/external/meshoptimizer/overdrawanalyzer.cpp.i
@@ -734,7 +734,7 @@ __/external/meshoptimizer/overdrawanalyzer.i: __/external/meshoptimizer/overdraw
 
 # target to preprocess a source file
 __/external/meshoptimizer/overdrawanalyzer.cpp.i:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/overdrawanalyzer.cpp.i
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/overdrawanalyzer.cpp.i
 .PHONY : __/external/meshoptimizer/overdrawanalyzer.cpp.i
 
 __/external/meshoptimizer/overdrawanalyzer.s: __/external/meshoptimizer/overdrawanalyzer.cpp.s
@@ -742,7 +742,7 @@ __/external/meshoptimizer/overdrawanalyzer.s: __/external/meshoptimizer/overdraw
 
 # target to generate assembly for a file
 __/external/meshoptimizer/overdrawanalyzer.cpp.s:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/overdrawanalyzer.cpp.s
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/overdrawanalyzer.cpp.s
 .PHONY : __/external/meshoptimizer/overdrawanalyzer.cpp.s
 
 __/external/meshoptimizer/overdrawoptimizer.o: __/external/meshoptimizer/overdrawoptimizer.cpp.o
@@ -750,7 +750,7 @@ __/external/meshoptimizer/overdrawoptimizer.o: __/external/meshoptimizer/overdra
 
 # target to build an object file
 __/external/meshoptimizer/overdrawoptimizer.cpp.o:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/overdrawoptimizer.cpp.o
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/overdrawoptimizer.cpp.o
 .PHONY : __/external/meshoptimizer/overdrawoptimizer.cpp.o
 
 __/external/meshoptimizer/overdrawoptimizer.i: __/external/meshoptimizer/overdrawoptimizer.cpp.i
@@ -758,7 +758,7 @@ __/external/meshoptimizer/overdrawoptimizer.i: __/external/meshoptimizer/overdra
 
 # target to preprocess a source file
 __/external/meshoptimizer/overdrawoptimizer.cpp.i:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/overdrawoptimizer.cpp.i
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/overdrawoptimizer.cpp.i
 .PHONY : __/external/meshoptimizer/overdrawoptimizer.cpp.i
 
 __/external/meshoptimizer/overdrawoptimizer.s: __/external/meshoptimizer/overdrawoptimizer.cpp.s
@@ -766,7 +766,7 @@ __/external/meshoptimizer/overdrawoptimizer.s: __/external/meshoptimizer/overdra
 
 # target to generate assembly for a file
 __/external/meshoptimizer/overdrawoptimizer.cpp.s:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/overdrawoptimizer.cpp.s
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/overdrawoptimizer.cpp.s
 .PHONY : __/external/meshoptimizer/overdrawoptimizer.cpp.s
 
 __/external/meshoptimizer/simplifier.o: __/external/meshoptimizer/simplifier.cpp.o
@@ -774,7 +774,7 @@ __/external/meshoptimizer/simplifier.o: __/external/meshoptimizer/simplifier.cpp
 
 # target to build an object file
 __/external/meshoptimizer/simplifier.cpp.o:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/simplifier.cpp.o
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/simplifier.cpp.o
 .PHONY : __/external/meshoptimizer/simplifier.cpp.o
 
 __/external/meshoptimizer/simplifier.i: __/external/meshoptimizer/simplifier.cpp.i
@@ -782,7 +782,7 @@ __/external/meshoptimizer/simplifier.i: __/external/meshoptimizer/simplifier.cpp
 
 # target to preprocess a source file
 __/external/meshoptimizer/simplifier.cpp.i:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/simplifier.cpp.i
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/simplifier.cpp.i
 .PHONY : __/external/meshoptimizer/simplifier.cpp.i
 
 __/external/meshoptimizer/simplifier.s: __/external/meshoptimizer/simplifier.cpp.s
@@ -790,7 +790,7 @@ __/external/meshoptimizer/simplifier.s: __/external/meshoptimizer/simplifier.cpp
 
 # target to generate assembly for a file
 __/external/meshoptimizer/simplifier.cpp.s:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/simplifier.cpp.s
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/simplifier.cpp.s
 .PHONY : __/external/meshoptimizer/simplifier.cpp.s
 
 __/external/meshoptimizer/spatialorder.o: __/external/meshoptimizer/spatialorder.cpp.o
@@ -798,7 +798,7 @@ __/external/meshoptimizer/spatialorder.o: __/external/meshoptimizer/spatialorder
 
 # target to build an object file
 __/external/meshoptimizer/spatialorder.cpp.o:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/spatialorder.cpp.o
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/spatialorder.cpp.o
 .PHONY : __/external/meshoptimizer/spatialorder.cpp.o
 
 __/external/meshoptimizer/spatialorder.i: __/external/meshoptimizer/spatialorder.cpp.i
@@ -806,7 +806,7 @@ __/external/meshoptimizer/spatialorder.i: __/external/meshoptimizer/spatialorder
 
 # target to preprocess a source file
 __/external/meshoptimizer/spatialorder.cpp.i:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/spatialorder.cpp.i
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/spatialorder.cpp.i
 .PHONY : __/external/meshoptimizer/spatialorder.cpp.i
 
 __/external/meshoptimizer/spatialorder.s: __/external/meshoptimizer/spatialorder.cpp.s
@@ -814,7 +814,7 @@ __/external/meshoptimizer/spatialorder.s: __/external/meshoptimizer/spatialorder
 
 # target to generate assembly for a file
 __/external/meshoptimizer/spatialorder.cpp.s:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/spatialorder.cpp.s
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/spatialorder.cpp.s
 .PHONY : __/external/meshoptimizer/spatialorder.cpp.s
 
 __/external/meshoptimizer/stripifier.o: __/external/meshoptimizer/stripifier.cpp.o
@@ -822,7 +822,7 @@ __/external/meshoptimizer/stripifier.o: __/external/meshoptimizer/stripifier.cpp
 
 # target to build an object file
 __/external/meshoptimizer/stripifier.cpp.o:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/stripifier.cpp.o
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/stripifier.cpp.o
 .PHONY : __/external/meshoptimizer/stripifier.cpp.o
 
 __/external/meshoptimizer/stripifier.i: __/external/meshoptimizer/stripifier.cpp.i
@@ -830,7 +830,7 @@ __/external/meshoptimizer/stripifier.i: __/external/meshoptimizer/stripifier.cpp
 
 # target to preprocess a source file
 __/external/meshoptimizer/stripifier.cpp.i:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/stripifier.cpp.i
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/stripifier.cpp.i
 .PHONY : __/external/meshoptimizer/stripifier.cpp.i
 
 __/external/meshoptimizer/stripifier.s: __/external/meshoptimizer/stripifier.cpp.s
@@ -838,7 +838,7 @@ __/external/meshoptimizer/stripifier.s: __/external/meshoptimizer/stripifier.cpp
 
 # target to generate assembly for a file
 __/external/meshoptimizer/stripifier.cpp.s:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/stripifier.cpp.s
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/stripifier.cpp.s
 .PHONY : __/external/meshoptimizer/stripifier.cpp.s
 
 __/external/meshoptimizer/vcacheanalyzer.o: __/external/meshoptimizer/vcacheanalyzer.cpp.o
@@ -846,7 +846,7 @@ __/external/meshoptimizer/vcacheanalyzer.o: __/external/meshoptimizer/vcacheanal
 
 # target to build an object file
 __/external/meshoptimizer/vcacheanalyzer.cpp.o:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/vcacheanalyzer.cpp.o
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/vcacheanalyzer.cpp.o
 .PHONY : __/external/meshoptimizer/vcacheanalyzer.cpp.o
 
 __/external/meshoptimizer/vcacheanalyzer.i: __/external/meshoptimizer/vcacheanalyzer.cpp.i
@@ -854,7 +854,7 @@ __/external/meshoptimizer/vcacheanalyzer.i: __/external/meshoptimizer/vcacheanal
 
 # target to preprocess a source file
 __/external/meshoptimizer/vcacheanalyzer.cpp.i:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/vcacheanalyzer.cpp.i
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/vcacheanalyzer.cpp.i
 .PHONY : __/external/meshoptimizer/vcacheanalyzer.cpp.i
 
 __/external/meshoptimizer/vcacheanalyzer.s: __/external/meshoptimizer/vcacheanalyzer.cpp.s
@@ -862,7 +862,7 @@ __/external/meshoptimizer/vcacheanalyzer.s: __/external/meshoptimizer/vcacheanal
 
 # target to generate assembly for a file
 __/external/meshoptimizer/vcacheanalyzer.cpp.s:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/vcacheanalyzer.cpp.s
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/vcacheanalyzer.cpp.s
 .PHONY : __/external/meshoptimizer/vcacheanalyzer.cpp.s
 
 __/external/meshoptimizer/vcacheoptimizer.o: __/external/meshoptimizer/vcacheoptimizer.cpp.o
@@ -870,7 +870,7 @@ __/external/meshoptimizer/vcacheoptimizer.o: __/external/meshoptimizer/vcacheopt
 
 # target to build an object file
 __/external/meshoptimizer/vcacheoptimizer.cpp.o:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/vcacheoptimizer.cpp.o
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/vcacheoptimizer.cpp.o
 .PHONY : __/external/meshoptimizer/vcacheoptimizer.cpp.o
 
 __/external/meshoptimizer/vcacheoptimizer.i: __/external/meshoptimizer/vcacheoptimizer.cpp.i
@@ -878,7 +878,7 @@ __/external/meshoptimizer/vcacheoptimizer.i: __/external/meshoptimizer/vcacheopt
 
 # target to preprocess a source file
 __/external/meshoptimizer/vcacheoptimizer.cpp.i:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/vcacheoptimizer.cpp.i
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/vcacheoptimizer.cpp.i
 .PHONY : __/external/meshoptimizer/vcacheoptimizer.cpp.i
 
 __/external/meshoptimizer/vcacheoptimizer.s: __/external/meshoptimizer/vcacheoptimizer.cpp.s
@@ -886,7 +886,7 @@ __/external/meshoptimizer/vcacheoptimizer.s: __/external/meshoptimizer/vcacheopt
 
 # target to generate assembly for a file
 __/external/meshoptimizer/vcacheoptimizer.cpp.s:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/vcacheoptimizer.cpp.s
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/vcacheoptimizer.cpp.s
 .PHONY : __/external/meshoptimizer/vcacheoptimizer.cpp.s
 
 __/external/meshoptimizer/vertexcodec.o: __/external/meshoptimizer/vertexcodec.cpp.o
@@ -894,7 +894,7 @@ __/external/meshoptimizer/vertexcodec.o: __/external/meshoptimizer/vertexcodec.c
 
 # target to build an object file
 __/external/meshoptimizer/vertexcodec.cpp.o:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/vertexcodec.cpp.o
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/vertexcodec.cpp.o
 .PHONY : __/external/meshoptimizer/vertexcodec.cpp.o
 
 __/external/meshoptimizer/vertexcodec.i: __/external/meshoptimizer/vertexcodec.cpp.i
@@ -902,7 +902,7 @@ __/external/meshoptimizer/vertexcodec.i: __/external/meshoptimizer/vertexcodec.c
 
 # target to preprocess a source file
 __/external/meshoptimizer/vertexcodec.cpp.i:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/vertexcodec.cpp.i
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/vertexcodec.cpp.i
 .PHONY : __/external/meshoptimizer/vertexcodec.cpp.i
 
 __/external/meshoptimizer/vertexcodec.s: __/external/meshoptimizer/vertexcodec.cpp.s
@@ -910,7 +910,7 @@ __/external/meshoptimizer/vertexcodec.s: __/external/meshoptimizer/vertexcodec.c
 
 # target to generate assembly for a file
 __/external/meshoptimizer/vertexcodec.cpp.s:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/vertexcodec.cpp.s
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/vertexcodec.cpp.s
 .PHONY : __/external/meshoptimizer/vertexcodec.cpp.s
 
 __/external/meshoptimizer/vertexfilter.o: __/external/meshoptimizer/vertexfilter.cpp.o
@@ -918,7 +918,7 @@ __/external/meshoptimizer/vertexfilter.o: __/external/meshoptimizer/vertexfilter
 
 # target to build an object file
 __/external/meshoptimizer/vertexfilter.cpp.o:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/vertexfilter.cpp.o
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/vertexfilter.cpp.o
 .PHONY : __/external/meshoptimizer/vertexfilter.cpp.o
 
 __/external/meshoptimizer/vertexfilter.i: __/external/meshoptimizer/vertexfilter.cpp.i
@@ -926,7 +926,7 @@ __/external/meshoptimizer/vertexfilter.i: __/external/meshoptimizer/vertexfilter
 
 # target to preprocess a source file
 __/external/meshoptimizer/vertexfilter.cpp.i:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/vertexfilter.cpp.i
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/vertexfilter.cpp.i
 .PHONY : __/external/meshoptimizer/vertexfilter.cpp.i
 
 __/external/meshoptimizer/vertexfilter.s: __/external/meshoptimizer/vertexfilter.cpp.s
@@ -934,7 +934,7 @@ __/external/meshoptimizer/vertexfilter.s: __/external/meshoptimizer/vertexfilter
 
 # target to generate assembly for a file
 __/external/meshoptimizer/vertexfilter.cpp.s:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/vertexfilter.cpp.s
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/vertexfilter.cpp.s
 .PHONY : __/external/meshoptimizer/vertexfilter.cpp.s
 
 __/external/meshoptimizer/vfetchanalyzer.o: __/external/meshoptimizer/vfetchanalyzer.cpp.o
@@ -942,7 +942,7 @@ __/external/meshoptimizer/vfetchanalyzer.o: __/external/meshoptimizer/vfetchanal
 
 # target to build an object file
 __/external/meshoptimizer/vfetchanalyzer.cpp.o:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/vfetchanalyzer.cpp.o
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/vfetchanalyzer.cpp.o
 .PHONY : __/external/meshoptimizer/vfetchanalyzer.cpp.o
 
 __/external/meshoptimizer/vfetchanalyzer.i: __/external/meshoptimizer/vfetchanalyzer.cpp.i
@@ -950,7 +950,7 @@ __/external/meshoptimizer/vfetchanalyzer.i: __/external/meshoptimizer/vfetchanal
 
 # target to preprocess a source file
 __/external/meshoptimizer/vfetchanalyzer.cpp.i:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/vfetchanalyzer.cpp.i
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/vfetchanalyzer.cpp.i
 .PHONY : __/external/meshoptimizer/vfetchanalyzer.cpp.i
 
 __/external/meshoptimizer/vfetchanalyzer.s: __/external/meshoptimizer/vfetchanalyzer.cpp.s
@@ -958,7 +958,7 @@ __/external/meshoptimizer/vfetchanalyzer.s: __/external/meshoptimizer/vfetchanal
 
 # target to generate assembly for a file
 __/external/meshoptimizer/vfetchanalyzer.cpp.s:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/vfetchanalyzer.cpp.s
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/vfetchanalyzer.cpp.s
 .PHONY : __/external/meshoptimizer/vfetchanalyzer.cpp.s
 
 __/external/meshoptimizer/vfetchoptimizer.o: __/external/meshoptimizer/vfetchoptimizer.cpp.o
@@ -966,7 +966,7 @@ __/external/meshoptimizer/vfetchoptimizer.o: __/external/meshoptimizer/vfetchopt
 
 # target to build an object file
 __/external/meshoptimizer/vfetchoptimizer.cpp.o:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/vfetchoptimizer.cpp.o
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/vfetchoptimizer.cpp.o
 .PHONY : __/external/meshoptimizer/vfetchoptimizer.cpp.o
 
 __/external/meshoptimizer/vfetchoptimizer.i: __/external/meshoptimizer/vfetchoptimizer.cpp.i
@@ -974,7 +974,7 @@ __/external/meshoptimizer/vfetchoptimizer.i: __/external/meshoptimizer/vfetchopt
 
 # target to preprocess a source file
 __/external/meshoptimizer/vfetchoptimizer.cpp.i:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/vfetchoptimizer.cpp.i
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/vfetchoptimizer.cpp.i
 .PHONY : __/external/meshoptimizer/vfetchoptimizer.cpp.i
 
 __/external/meshoptimizer/vfetchoptimizer.s: __/external/meshoptimizer/vfetchoptimizer.cpp.s
@@ -982,7 +982,7 @@ __/external/meshoptimizer/vfetchoptimizer.s: __/external/meshoptimizer/vfetchopt
 
 # target to generate assembly for a file
 __/external/meshoptimizer/vfetchoptimizer.cpp.s:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/vfetchoptimizer.cpp.s
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/external.dir/build.make src/CMakeFiles/external.dir/__/external/meshoptimizer/vfetchoptimizer.cpp.s
 .PHONY : __/external/meshoptimizer/vfetchoptimizer.cpp.s
 
 core/Configuration.o: core/Configuration.cpp.o
@@ -990,7 +990,7 @@ core/Configuration.o: core/Configuration.cpp.o
 
 # target to build an object file
 core/Configuration.cpp.o:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core.dir/build.make src/CMakeFiles/core.dir/core/Configuration.cpp.o
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core.dir/build.make src/CMakeFiles/core.dir/core/Configuration.cpp.o
 .PHONY : core/Configuration.cpp.o
 
 core/Configuration.i: core/Configuration.cpp.i
@@ -998,7 +998,7 @@ core/Configuration.i: core/Configuration.cpp.i
 
 # target to preprocess a source file
 core/Configuration.cpp.i:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core.dir/build.make src/CMakeFiles/core.dir/core/Configuration.cpp.i
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core.dir/build.make src/CMakeFiles/core.dir/core/Configuration.cpp.i
 .PHONY : core/Configuration.cpp.i
 
 core/Configuration.s: core/Configuration.cpp.s
@@ -1006,7 +1006,7 @@ core/Configuration.s: core/Configuration.cpp.s
 
 # target to generate assembly for a file
 core/Configuration.cpp.s:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core.dir/build.make src/CMakeFiles/core.dir/core/Configuration.cpp.s
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core.dir/build.make src/CMakeFiles/core.dir/core/Configuration.cpp.s
 .PHONY : core/Configuration.cpp.s
 
 core/Info.o: core/Info.cpp.o
@@ -1014,7 +1014,7 @@ core/Info.o: core/Info.cpp.o
 
 # target to build an object file
 core/Info.cpp.o:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core.dir/build.make src/CMakeFiles/core.dir/core/Info.cpp.o
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core.dir/build.make src/CMakeFiles/core.dir/core/Info.cpp.o
 .PHONY : core/Info.cpp.o
 
 core/Info.i: core/Info.cpp.i
@@ -1022,7 +1022,7 @@ core/Info.i: core/Info.cpp.i
 
 # target to preprocess a source file
 core/Info.cpp.i:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core.dir/build.make src/CMakeFiles/core.dir/core/Info.cpp.i
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core.dir/build.make src/CMakeFiles/core.dir/core/Info.cpp.i
 .PHONY : core/Info.cpp.i
 
 core/Info.s: core/Info.cpp.s
@@ -1030,7 +1030,7 @@ core/Info.s: core/Info.cpp.s
 
 # target to generate assembly for a file
 core/Info.cpp.s:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core.dir/build.make src/CMakeFiles/core.dir/core/Info.cpp.s
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core.dir/build.make src/CMakeFiles/core.dir/core/Info.cpp.s
 .PHONY : core/Info.cpp.s
 
 core/Utils.o: core/Utils.cpp.o
@@ -1038,7 +1038,7 @@ core/Utils.o: core/Utils.cpp.o
 
 # target to build an object file
 core/Utils.cpp.o:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core.dir/build.make src/CMakeFiles/core.dir/core/Utils.cpp.o
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core.dir/build.make src/CMakeFiles/core.dir/core/Utils.cpp.o
 .PHONY : core/Utils.cpp.o
 
 core/Utils.i: core/Utils.cpp.i
@@ -1046,7 +1046,7 @@ core/Utils.i: core/Utils.cpp.i
 
 # target to preprocess a source file
 core/Utils.cpp.i:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core.dir/build.make src/CMakeFiles/core.dir/core/Utils.cpp.i
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core.dir/build.make src/CMakeFiles/core.dir/core/Utils.cpp.i
 .PHONY : core/Utils.cpp.i
 
 core/Utils.s: core/Utils.cpp.s
@@ -1054,7 +1054,7 @@ core/Utils.s: core/Utils.cpp.s
 
 # target to generate assembly for a file
 core/Utils.cpp.s:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core.dir/build.make src/CMakeFiles/core.dir/core/Utils.cpp.s
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core.dir/build.make src/CMakeFiles/core.dir/core/Utils.cpp.s
 .PHONY : core/Utils.cpp.s
 
 core/base/traits/SizeOf.o: core/base/traits/SizeOf.cpp.o
@@ -1062,7 +1062,7 @@ core/base/traits/SizeOf.o: core/base/traits/SizeOf.cpp.o
 
 # target to build an object file
 core/base/traits/SizeOf.cpp.o:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core.dir/build.make src/CMakeFiles/core.dir/core/base/traits/SizeOf.cpp.o
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core.dir/build.make src/CMakeFiles/core.dir/core/base/traits/SizeOf.cpp.o
 .PHONY : core/base/traits/SizeOf.cpp.o
 
 core/base/traits/SizeOf.i: core/base/traits/SizeOf.cpp.i
@@ -1070,7 +1070,7 @@ core/base/traits/SizeOf.i: core/base/traits/SizeOf.cpp.i
 
 # target to preprocess a source file
 core/base/traits/SizeOf.cpp.i:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core.dir/build.make src/CMakeFiles/core.dir/core/base/traits/SizeOf.cpp.i
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core.dir/build.make src/CMakeFiles/core.dir/core/base/traits/SizeOf.cpp.i
 .PHONY : core/base/traits/SizeOf.cpp.i
 
 core/base/traits/SizeOf.s: core/base/traits/SizeOf.cpp.s
@@ -1078,7 +1078,7 @@ core/base/traits/SizeOf.s: core/base/traits/SizeOf.cpp.s
 
 # target to generate assembly for a file
 core/base/traits/SizeOf.cpp.s:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core.dir/build.make src/CMakeFiles/core.dir/core/base/traits/SizeOf.cpp.s
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(MAKE) $(MAKESILENT) -f src/CMakeFiles/core.dir/build.make src/CMakeFiles/core.dir/core/base/traits/SizeOf.cpp.s
 .PHONY : core/base/traits/SizeOf.cpp.s
 
 # Help Target
@@ -1216,6 +1216,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

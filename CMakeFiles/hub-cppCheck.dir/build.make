@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/gauthier/tmpRT/hub
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/gauthier/tmpRT/hub/buildOrigin
+CMAKE_BINARY_DIR = /home/gauthier/tmpRT/hub/tmpBuild
 
 # Utility rule file for hub-cppCheck.
 
@@ -67,7 +67,7 @@ include CMakeFiles/hub-cppCheck.dir/compiler_depend.make
 include CMakeFiles/hub-cppCheck.dir/progress.make
 
 CMakeFiles/hub-cppCheck:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/gauthier/tmpRT/hub/buildOrigin/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running cppCheck"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/gauthier/tmpRT/hub/tmpBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Running cppCheck"
 	cd /home/gauthier/tmpRT/hub && cppcheck -DCPP_CHECK src -I src --error-exitcode=1 --enable=all --suppress=missingIncludeSystem --suppress=missingInclude --suppress=unusedFunction --suppress=virtualCallInConstructor --inline-suppr
 
 CMakeFiles/hub-cppCheck.dir/codegen:
@@ -86,6 +86,6 @@ CMakeFiles/hub-cppCheck.dir/clean:
 .PHONY : CMakeFiles/hub-cppCheck.dir/clean
 
 CMakeFiles/hub-cppCheck.dir/depend:
-	cd /home/gauthier/tmpRT/hub/buildOrigin && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gauthier/tmpRT/hub /home/gauthier/tmpRT/hub /home/gauthier/tmpRT/hub/buildOrigin /home/gauthier/tmpRT/hub/buildOrigin /home/gauthier/tmpRT/hub/buildOrigin/CMakeFiles/hub-cppCheck.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/gauthier/tmpRT/hub/tmpBuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/gauthier/tmpRT/hub /home/gauthier/tmpRT/hub /home/gauthier/tmpRT/hub/tmpBuild /home/gauthier/tmpRT/hub/tmpBuild /home/gauthier/tmpRT/hub/tmpBuild/CMakeFiles/hub-cppCheck.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/hub-cppCheck.dir/depend
 

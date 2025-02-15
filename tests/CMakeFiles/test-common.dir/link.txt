@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtest-commond.a "CMakeFiles/test-common.dir/test_common.cpp.o"
+/usr/bin/ranlib libtest-commond.a
